@@ -1,0 +1,174 @@
+PRIMEIRA SEÇÃO
+
+.container-namepage{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+}
+.titulo-categoria{
+    display: flex;
+    flex-direction: column;
+    margin-left: 4vw;
+    gap: 5px;
+}
+.endereco-categoria{
+    display: flex;
+    flex-direction: row;
+}
+.endereco-categoria p{
+    font-size: 14px;
+}
+.endereco-categoria a{
+    color: #ddd;
+    text-decoration: none;
+}
+
+
+
+
+
+
+/*  SEGUNDA SEÇÃO  */
+
+#icon-carregando{
+    position: absolute;
+    visibility: visible;
+}
+
+.section-nacionais{
+    padding: 5vh 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2vw;
+   
+}
+
+.card-produto {
+  width: 20vw;
+  max-width: 300px;
+  min-width: 290px;
+  height: 450px;
+  transition: all 0.3s ease-in-out;
+}
+.card-produto:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+}
+.card-produto img{
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+}
+.descricao-produto{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    height: 30%;
+}
+.descricao-produto .nome{
+    text-transform: uppercase;
+    font-size: 13px;
+    text-align: start;
+    
+    
+  }
+.valor{
+    font-size: bold 16px;
+    font-family:sans-serif;
+  }
+.btn{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    letter-spacing: 0.8px;
+    cursor: pointer;
+    background-color: #ffffff;
+  }
+ .produto{
+    margin-left: 10px;
+  }
+
+/* FORM AND INSTA */
+
+
+
+  .form-footer{
+    width: 100%;
+    height: 40vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    border-top: 1px solid rgb(255, 255, 255);
+}
+.container-form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.container-form h2{
+    font-size: 32px;
+}
+.m-4{
+    margin-bottom: 1.5rem!important;
+    color: #fff;
+    font-size: 13px;
+}
+
+.input-form{
+    font-size: 16px;
+    padding: 15px 25px;
+    width: 40vw;
+    margin-top: 1.5rem!important;
+    appearance: none;
+    color: #000;
+    fill: #000;
+    border-radius: 8px;
+}
+
+  /* ---------------------------------------------------- */
+
+
+
+.banner-instagram{
+    width: 100%;
+    height: 30vh;
+    background-color: #f0f0f0;
+    border-bottom: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+}
+.cont-insta{
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    gap: 1rem;
+}
+.nome-insta{
+    display: block;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    font-size: 25px;
+    letter-spacing: 1px;
+
+}
+.btn-insta{
+    width: fit-content;
+    text-transform: uppercase;
+    padding: 4px 20px;
+    border: 1px solid black ;
+    border-radius: 50px;
+    font: bold 13px;
+    cursor: pointer;
+}
