@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AFM store</title>
+    <!-- LINKS CSS -->
+    <link rel="stylesheet" href="../styles/zerar.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/Pages-categoria.css">
+    <link rel="stylesheet" href="../styles/responsivo.css">
+    <!--  -->
+
+    <link rel="stylesheet" href="https://www.flaticon.com/br/icon-font-gratis">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+</head>
+<body>
+
+    <header>
+       <section class="top-header">
+        <div class="top social"><i style="font-size:15px" class="fa">&#xf16d;</i></div>
+            <div class="top text-topheader"> FRETE GRÁTIS ACIMA DE R$500,00 REAIS EM COMPRAS!</div>
+            <div class="top none"></div>
+       </section>
+
+       <section class="hdr">
+           
+        <div class="logoamf">
+        <img src="../img/banner.jpg" class="logo-header" alt="Logo">
+        </div>
+        
+        <div class="pesquisa">
+        <input type="text" class="input-pesquisa" placeholder="O que você está procurando?">
+        <i class="material-icons">&#xe8b6;</i>
+        </div>
+        <div class="carrinho">
+            <div class="img-container" onclick="mostrarCarrinho()"><img src="../img/carrinho.png" ><span class="qnt-indicada">0</span></div>
+
+            <div class="aba-carrinho-aberta">
+            
+                <div class="titulo-carrinho"> 
+                    Carrinho de Compras 
+                <span onclick="fecharCarrinho()"><i class="material-icons" style="font-size: 30px;">&#xe5cd;</i></span>
+                </div>
+                <div class="container-carrinho">
+                    <div class="produtos-carrinho">
+                   
+                    </div>
+                    
+                </div
+                ><div class="total-carrinho">
+                    <div class="info-total">
+                        <span class="total"><strong>Total:</strong></span>    
+                        <span ><strong class="valor-calculado">R$0,00</strong></span>
+                    </div>
+                    <div class="contain-btn-finalizar">
+                        <button class="btn-finalizar-compra">Finalizar Compra</button>
+                    </div>
+                    
+                    </div>
+            </div>
+
+
+        </div>
+
+        </div>
+        <div class="nav-list"> 
+    
+
+            <a href="../index.html">Inicio</a>
+            <a href="../html's/nacional.html">Nacionais</a>
+            <a href="../html's/importados.html" >Importados</a>
+            <a href="../html's/camisas.html">Camisas</a>
+            <a href="../html's/calcas.html">Calças</a>
+            <a href="../html's/tenis.html">Tênis</a>
+
+     </nav>
+
+
+    </div>
+     
+
+
+</section>
+    </header>
+
+    <div class="adaptar-header"></div>
+    <main class="main-nacionais">
+
+        <section class="container-namepage">
+            <div class="titulo-categoria">
+                <span class="endereco-categoria"><a href=""><p>Inicio . </p></a> <p> NACIONAIS</p></span>
+                <span><h1>PRODUTOS NACIONAIS</h1></span>
+            </div>
+        </section>
+
+        <section class="section-nacionais" id="container-nacionais">
+<!--             
+            <lord-icon
+                src="https://cdn.lordicon.com/gkryirhd.json"
+                trigger="loop"
+                state="loop-snake-alt"
+                style="width:50px;height:50px"
+                id="icon-carregando">
+               
+            </lord-icon> -->
+        </section>
+    </main>
+    
+    <section class="form-footer">
+        <div class="container-form">
+            <h2 class="m-4">Receba todas as promoções</h2>
+            <p class="m-4">Quer receber nossas ofertas? Cadastre-se e comece a recebê-las!</p>
+            <form action="">
+               <input type="email" class="input-form" placeholder="E-mail">
+            </form>
+        </div>
+     </section>
+     <section class="banner-instagram">
+            <div class="cont-insta">
+                <span class="nome-insta"><i style="font-size:30px" class="fa">&#xf16d;</i><h2>amfstore_</h2></span>
+                <p>Estamos no instagram</p>
+                <span class="btn-insta">Siga-nos</span>
+            </div>
+     </section>
+
+     <footer>
+       
+        <section class="contfoot">
+            <div class="conttxt">
+                <div>
+                <h2>Redes socias</h2>
+                <ul>
+                    <li><img src="../img/instagramc.png">@amfstore</li>
+                    <li><img src="../img/facebook.png">@amfstore</li>
+                    <li><img src="../img/twitter.png">@amfstore</li>
+                </ul>
+                </div>
+            </div>
+            <div class="contimg">
+                <img src="../img/banner.jpg">
+            </div>
+        </section>
+    </footer>
+    
+    <script  src="../scripts/script.js"></script>
+</body>
+</html>
