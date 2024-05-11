@@ -31,7 +31,7 @@
         padding: 1vh 0;
         margin-top: 2vh;
         display:flex;
-        height: 100vh;
+        height: 100%;
         flex-direction: column;
     }
       .container-categoria{
@@ -44,8 +44,18 @@
         align-items: center;
         
     }
+    main{
+        height: 180vh;
+    }
+    .div-img-info img{
+    width: 30px;
+    height: 30px;
+    }
+    .aling-center-info h3{
+        text-align: center;
+        font-size: 10px;
+    }
     .titulo-secao{
-        visibility: hidden;
     }
       .categoria{
         margin-top: 10px;
@@ -104,7 +114,7 @@
         font-size: 26px;
     }
     .m-4{
-        font-size: 14px;
+        font-size: 11px;
     }
     .input-form{
         font-size: 16px;
