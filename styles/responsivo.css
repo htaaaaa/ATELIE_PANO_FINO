@@ -44,7 +44,7 @@
         align-items: center;
         
     }
-    main{
+    .main-index{
         height: 180vh;
     }
     .div-img-info img{
@@ -126,4 +126,18 @@
         fill: #000;
         border-radius: 8px;
     }   
+    .swiper-slide {
+        max-height: 300px ;
+      }
+      .descricao-produto .nome{
+        font-size: 8px;
+      }
+      .swiper-slide .img-produto {
+        display: block;
+        width: 100%;
+        height: 65%;
+        object-fit: cover;
+    }
+    
+    
 }

@@ -305,7 +305,7 @@ const initSwiper1280 = () => {
 
 const initSwiper900 = () => {
   swiper = new Swiper(".container-produtos", {
-    slidesPerView: 1,
+    slidesPerView: 2,
     spaceBetween: 30,
     loop: true,
 
