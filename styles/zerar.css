@@ -1,10 +1,10 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 200;
+    padding: 150;
 
 }
 body{
     font-family: "Montserrat", sans-serif;
-    background-color: #000;
+    background-color: #ffdddd;
     color: #fff;
 }

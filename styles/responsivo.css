@@ -69,7 +69,7 @@
         display: inline-block;
         position: absolute;
         z-index: 999;
-        color: black;
+        color: #ffdddd;
         right: -15px; 
     }
     .carrinho img{
@@ -122,8 +122,8 @@
         width: 60vw;
         margin-top: 1.5rem!important;
         appearance: none;
-        color: #000;
-        fill: #000;
+        color: #6a0000;
+        fill: #a45858;
         border-radius: 8px;
     }   
     .swiper-slide {
